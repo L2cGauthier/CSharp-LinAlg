@@ -1,7 +1,7 @@
-﻿using LinAlg.Utility;
-
-namespace LinAlg
+﻿namespace LinAlg
 {
+    using LinAlg.Utility;
+
     public static class MatrixOperations
     {
         public static Matrix2D MatrixProduct(Matrix2D leftMatrix, Matrix2D rightMatrix, ref Matrix2D matrixProduct)
